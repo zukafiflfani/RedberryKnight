@@ -1,4 +1,153 @@
 html, body {
-  height: 100%;
-  width: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+.langing_page_img{
+  position: absolute;
+  width: 923px;
+  height: 1196px;
+  left: 0px;
+  top: 84px;
+  background-repeat: no-repeat;
+}
+header{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  width: 923px;
+  height: 84px;
+  
+  background: #7025FB;
+}
+.rectangle{
+  position: absolute;
+  width: 997px;
+  height: 1280px;
+  left: 923px;
+  top: 0px;
+  background: #FD5334;
+}
+
+img{
+    object-fit: cover;
+}
+.cheesSays{
+  position: absolute;
+  width: 496px;
+  height: 109px;
+   
+  margin: 0 0;
+  
+  left: 85px;
+  top: 265px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 109px;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+}
+.AlotAbout{
+  position: absolute;
+  width: 136px;
+  height: 27px;
+  margin: 0 0;
+  
+  left: 607px;
+  top: 306px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  
+  color: #212529;
+}
+.whoWeAre{
+  position: absolute;
+  width: 570px;
+  height: 109px;
+  
+  margin: 0 0;
+  
+  left: 85px;
+  top: 390px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 109px;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+}
+.startButtom{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 13px 24px;
+  gap: 10px;
+  
+  margin: 0 0;
+  
+  position: absolute;
+  width: 191px;
+  height: 53px;
+  left: 80px;
+  top: 601px;
+  
+  background: #212529;
+  border-radius: 8px;
+}
+.Start{
+  width: 107px;
+  height: 27px;
+  
+  margin: 0 0;
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0
+}
+.errow_icon{
+  position: absolute;
+  left: 70%;
+  right: 0%;
+  top: 27%;
+  bottom: 0%;
+}
+.crown{
+  position: absolute;
+  margin: 0 0;
+  left: 60px;
+  right: 0%;
+  top: 30px;
+  bottom: 0%;
+}
+.crownText{
+  position: absolute;
+  margin: 0 0;
+  left:82.92px;
+  right: 0%;
+  top: 30.41px;
+  bottom: 0%;
 }
